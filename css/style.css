@@ -93,3 +93,45 @@ nav {
 .image-height{
     height: 320px;
 }
+.small-container{
+    width: 900px;
+    margin: 180px auto;
+}
+.title-2{
+    font-size: 50px;
+}
+.circle{
+    height: 10px;
+    width: 10px;
+    padding: 5px;
+    border: #0061FF 6px solid;
+    border-radius: 50%;
+   
+}
+.circle-2{
+    height: 10px;
+    width: 10px;
+    padding: 8px;
+    border: #8CA1B6 3px solid;
+    border-radius: 50%;
+}
+.align-button{
+    justify-content: flex-start;
+    margin-top: 70px;
+    margin-bottom: 40px;
+}
+.m-right{
+    margin-right: 20px
+} 
+.center-button{
+    justify-content: center;
+}
+.card{
+    height: 900px;
+    width: 280px;
+    border: #D5D5D7 solid;
+    
+}
+.space-card{
+    justify-content: space-between;
+}
