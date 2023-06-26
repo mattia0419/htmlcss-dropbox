@@ -213,3 +213,16 @@ nav {
     font-size: 20px;
     border: #1A1A1A solid;
 }
+.second-sec{
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.small-card{
+    width: 280px;
+}
+.m-top-180{
+    margin-top: 180px;
+}
+.m-bot-60{
+    margin-bottom: 60px;
+}
