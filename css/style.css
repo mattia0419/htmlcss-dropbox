@@ -226,3 +226,57 @@ nav {
 .m-bot-60{
     margin-bottom: 60px;
 }
+.grid-side{
+    margin: 0;
+    width: 30vw;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    
+}
+.square{
+    width: 15vw;
+    justify-content: center;
+    align-items: center;
+    height: 280px;
+    padding: 15px;
+    
+}
+.green{
+    color: white;
+    background-color: #A2D39B;
+  
+}
+
+
+.border{
+    border: solid 10px #D1E9CD;
+}
+.brown{
+    background-color: #61082B;
+    
+}
+.red{
+    background-color: #FF1C1C;
+}
+.lightblue{
+    background-color: #0093CE;
+}
+.grid-center{
+    width: 40vw;
+    height: 560px;
+    background-color: #F5F5F5;
+    position: relative;
+}
+.header-grid{
+    width: 250px;
+    position: relative;
+    bottom: 190px;
+}
+.hr{
+    width: 80px;
+    height: 2px;
+    position: relative;
+    top: 200px;
+    right: 250px;
+    border-bottom: #9A97B9 solid;
+}
