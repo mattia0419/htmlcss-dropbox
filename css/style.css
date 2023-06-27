@@ -320,3 +320,10 @@ nav {
 .side-container{
     width: 450px;
 }
+.pad-r{
+    padding-right: 5px;
+}
+.align-text{
+    justify-content: space-between;
+    align-items: flex-start;
+}
