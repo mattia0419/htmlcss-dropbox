@@ -302,6 +302,7 @@ nav {
 .under-grid{
     justify-content: center;
     align-items: center;
+    height: 300px;
 }
 .no-border-button{
     background-color: white;
@@ -319,6 +320,7 @@ nav {
 }
 .side-container{
     width: 450px;
+    
 }
 .pad-r{
     padding-right: 5px;
@@ -326,4 +328,19 @@ nav {
 .align-text{
     justify-content: space-between;
     align-items: flex-start;
+}
+.title-5{
+    font-size: 17px;
+}
+.question{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-bottom: #A0A0A0 solid;
+    margin-top: 0;
+}
+.border-top{
+    border-top: #A0A0A0 solid;
+}
+.m-top-140{
+    margin-top: 140px;
 }
