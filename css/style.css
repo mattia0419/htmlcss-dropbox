@@ -21,6 +21,11 @@ ul#menu li {
     list-style: none;
     margin-right: 20px;
 }
+ul#menu-2 li {
+    display: inline;
+    list-style: none;
+    margin-right: 20px;
+}
 nav {
     height: 70px;
     width: 100vw;
