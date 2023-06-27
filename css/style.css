@@ -299,3 +299,24 @@ nav {
 .big-container{
     width: 99vw;
 }
+.under-grid{
+    justify-content: center;
+    align-items: center;
+}
+.no-border-button{
+    background-color: white;
+    color: black;
+    padding-right:  17px;
+    padding-left: 17px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 18px;
+    border: transparent;
+}
+.title-4{
+    font-size: 40px;
+    color: #61082B;
+}
+.side-container{
+    width: 450px;
+}
