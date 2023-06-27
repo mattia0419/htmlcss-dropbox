@@ -12,7 +12,7 @@ img{
 .flex{
     display: flex;
 }
-a{
+.gray-link{
     text-decoration: none;
     color: #797979;
 }
@@ -63,6 +63,7 @@ nav {
 }
 .medium-container{
     width: 1100px;
+    position: relative;
 }
 .title{
     font-size: 40px;
@@ -343,4 +344,36 @@ nav {
 }
 .m-top-140{
     margin-top: 140px;
+}
+footer{
+    background-color: black;
+    color: white;
+    height: 500px;
+}
+.margin-auto{
+    margin: 0 auto;
+}
+.sec-footer{
+    line-height: 45px;
+}
+.white-link{
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    display: block;
+}
+.language{
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 10px;
+}
+.border-top{
+    width: 90px;
+    border-top: white solid;
+    top: 50px;
+    right: 510px;
+    
+}
+.m-right-3{
+    margin-right: 3px;
 }
