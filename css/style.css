@@ -278,21 +278,19 @@ nav {
     width: 39vw;
     height: 560px;
     background-color: #F5F5F5;
-    position: relative;
+    justify-content: flex-start;
+    flex-direction: column;
 }
 .header-grid{
     width: 250px;
-    position: relative;
-    bottom: 190px;
-    margin: 0;
+    margin-bottom: 80px;
+    margin-top: 40px;
 }
 .hr{
     width: 80px;
     height: 2px;
-    position: relative;
-    top: 200px;
-    right: 250px;
-    border-bottom: #9A97B9 solid;
+    margin-bottom: 80px;
+    border-bottom: #D5D5D7 solid;
 }
 .img-color{
     filter: invert(100%) sepia(1%) saturate(915%) hue-rotate(86deg) brightness(121%) contrast(100%);
@@ -339,6 +337,7 @@ nav {
     border-bottom: #A0A0A0 solid;
     margin-top: 0;
 }
+
 .border-top-2{
     border-top: #A0A0A0 solid;
 }
