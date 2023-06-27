@@ -230,7 +230,7 @@ nav {
     margin: 0;
     width: 30vw;
     flex-wrap: wrap;
-    justify-content: flex-start;
+    flex-direction: row;
     
 }
 .square{
@@ -261,8 +261,20 @@ nav {
 .lightblue{
     background-color: #0093CE;
 }
+.other-red{
+    background-color: #D5001F;
+}
+.other-lightblue{
+    background-color: #B4D0E7;
+}
+.blue-2{
+    background-color: #0D2481;
+}
+.yellow{
+    background-color: #FFD830;
+}
 .grid-center{
-    width: 40vw;
+    width: 39vw;
     height: 560px;
     background-color: #F5F5F5;
     position: relative;
@@ -271,6 +283,7 @@ nav {
     width: 250px;
     position: relative;
     bottom: 190px;
+    margin: 0;
 }
 .hr{
     width: 80px;
@@ -279,4 +292,10 @@ nav {
     top: 200px;
     right: 250px;
     border-bottom: #9A97B9 solid;
+}
+.img-color{
+    filter: invert(100%) sepia(1%) saturate(915%) hue-rotate(86deg) brightness(121%) contrast(100%);
+}
+.big-container{
+    width: 99vw;
 }
